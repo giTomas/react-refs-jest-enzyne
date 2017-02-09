@@ -24,6 +24,6 @@ describe('App', () => {
     const list = app.find('List').first();
     const listData = list.props().data;
     expect(listData.length).toEqual(1);
-    expect(listData[0]).toEqual('Name');
+    expect(listData[0]).toEqual('Name 1');
   })
 });
